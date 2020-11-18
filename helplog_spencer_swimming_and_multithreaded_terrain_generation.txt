@@ -1,0 +1,59 @@
+[CHANGES]
+Changed the Player class a lot so that it can now handle swimming boolean and updates and added comments.
+Changed the grid-tracing function a lot so that it also registers WATER  and LAVA blocks as permeable
+Added LAVA and WATER as BlockTypes
+Added a new postprocessshader class
+
+[HELP_LOG]
+
+the Terrain class contains a map of 16 chunks (4x4)
+each chunk contains 16x16x256 blocks
+thus the terrain object's aerial view of the ground is 64x64
+i figured out my problem. create was being called before i could finish 
+generating fbm data
+
+Option 1:
+Post-Process Camera Overlay (40 pts)
+Sound (10 pts)
+
+Option 2:
+Weather (50 pts)
+
+Option 3:
+Shadow Mapping (70 pts)
+
+***Option 4:***
+Day and Night Cycle (60 pts)
+Sun, moon, and stars and
+Crashing after fixing so that it works with multi-threading and how do i get the transparent quad to stay in front of the player when youre underwater
+
+
+Tips on doing day and night cycle
+
+My multithreading is causing my program to crash
+My program cometimes crashes when you first run and then crashes
+
+Transparent quad is not following the player
+
+
+
+
+Make your terrain hilly with curvature by using a noise function
+Add distance fog (use the fragment shader to have the color blend in with the color of the sky based on distance)
+Add light mapping
+Add neon lights 
+Recreate Pandora
+
+std::queue::push(val)
+Inserts a new element at the end of the queue, after its current last element. The content of this new element is initialized to val.
+
+This member function effectively calls the member function push_back of the underlying container object.
+
+std::queue::pop()
+Removes the next element in the queue, effectively reducing its size by one.
+
+The element removed is the "oldest" element in the queue whose value can be retrieved by calling member queue::front.
+
+This calls the removed element's destructor.
+
+This member function effectively calls the member function pop_front of the underlying container object.

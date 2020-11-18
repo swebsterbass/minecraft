@@ -1,0 +1,20 @@
+
+
+For global coordinate -2, we used modulo to get the local coordinate, which should be 62, not -2.
+
+Must compute the new cell block everytime in ray cast funcction
+
+have to do #include <array>
+
+Did <2 instead of <=2 for a loop
+
+Have to make sure ray ast never reaches a ungenerated terrain
+
+Check Point 2:
+Terminated draws when y is greater than 64, should be 255
+
+Set the orientation twice in perpendicular river cutting. Should have stopped after setting it the one time.
+
+Declared a variable twice 
+
+

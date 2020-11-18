@@ -1,0 +1,10 @@
+Milestone I
+2019-11-16 2:00pm Figure out how to revert to a previous commit http://serebrov.github.io/html/2014-01-04-git-revert-multiple-recent-comments.html
+2019-11-17 3:00pm Search up how to reset master https://stackoverflow.com/questions/5816688/resetting-remote-to-a-certain-commit
+2019-11-17 3:10pm Search up how to clean untracked files https://gist.github.com/subfuzion/1128192
+
+Milestone II
+2019-11-25 6:00pm Searched up difference between GL_ARRAY_BUFFER and GL_ELEMENT_ARRAY_BUFFER https://stackoverflow.com/questions/15094433/opengl-why-is-gl-element-array-buffer-for-indices
+
+Milestone III
+2019-12-06 10:00pm Searched up perlin noise https://gpfault.net/posts/perlin-noise.txt.html

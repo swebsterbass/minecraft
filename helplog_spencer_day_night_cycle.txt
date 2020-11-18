@@ -1,0 +1,7 @@
+If the demo sky code doesnt show anything then it may be because the alpha is zero because the demo outputs a vec3 instead of a vec4
+
+Another problem: try to only have a single out vector in your fragment shader, if you have multiple, then im not sure how the fragment shader decides which out vector is the color
+
+The sky demo causes your program to run so slowly because to render to your high pixel density screen, it takes more render time so i guess from now on were using a small sized window
+
+I think I may have fixed the falling through terrain problem by adding a terminal velocity component to the readUserInput function when the player is falling gin aerial mode

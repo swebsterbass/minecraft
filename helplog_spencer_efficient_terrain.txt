@@ -1,0 +1,41 @@
+11-12-2019
+If you get an undefined reference to vtable error, it's because
+you don't have a destructor defined for the class that it's
+complaining about.
+https://stackoverflow.com/questions/4272432/c-undefined-reference-to-vtable
+(2nd solution)
+
+11-13-2019
+I kind of just forgot how to return values by reference, but retaught myself
+how by going on this website...
+https://www.tutorialspoint.com/cplusplus/returning_values_by_reference.htm
+You just need to declare the return value as a TYPE& in the function
+signature and return something of type TYPE and it will automatically
+return to the calling function a reference to the return value.
+
+11-14-2019
+There are many pitfalls in my code where bugs could exist. First of all,
+I don't know how bitwise operation works on primitives of different types
+since I'm shifting around int64_t and bit-oring it with a regular int. I don't
+know if it does sign extension or just adds a bunch of zeroes when attempting
+to perform these operations.
+
+11-15-2019 | Hannah Bollar
+Use feature requests for the word doc 
+Have the oterh person include the function name in the header file of the current
+Delete build folders
+Update Qt to the most up to date version
+
+11-16-2019
+If when you quit the QApplication and the return key doesn't allow
+you to close the terminal window, that may be because you did not
+call the destroy function for one of your drawable objects in the
+destructor of MyGL
+
+NDC = Normalized Device Coordinates
+
+11-16-2019
+Include the following line of code in either MyGL or the Player class
+(whichever one is handling the new generation of Terrain objects which
+should probably be MyGL)
+QThreadPool::globalInstance()->start(pointer to Terrain object to generate FBM for);
