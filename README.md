@@ -1,7 +1,7 @@
 Mini-Minecraft
 ======================
 
-![SplashImage](minecraft_splash_image.png)
+![SplashImage](minecraft_splah_image.png)
 
 ##### [Demo Video](https://www.youtube.com/watch?v=0PWYWslg1lU)
 
