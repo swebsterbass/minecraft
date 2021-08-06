@@ -1,7 +1,15 @@
-Link to Demo Video:
-https://www.youtube.com/watch?v=0PWYWslg1lU
+Mini-Minecraft
+======================
+
+![](minecraft_splash_image.png)
+
+##### [Demo Video](https://www.youtube.com/watch?v=0PWYWslg1lU)
+
+**University of Pennsylvania, CIS 560: Introduction to COmputer Graphics, Final Project**
+
 
 Blooper Image:
+
 ![Blooper0](minecraft_terrain_blooper.png)
 
 ---Milestone 3---
